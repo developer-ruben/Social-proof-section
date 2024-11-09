@@ -193,9 +193,11 @@ body {
   border-radius: 0 1rem 0 0;
   font-size: 11px;
   text-align: center;
+  padding: 0.8rem;
 }
 .attribution__link {
   text-decoration: none;
+  color: hsl(var(--clr-dark-grayish-magenta));
 }
 
 .attribution__link:hover {
