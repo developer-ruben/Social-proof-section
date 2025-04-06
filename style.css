@@ -70,9 +70,9 @@ body {
   padding: 2.4rem;
   min-height: 100vh;
   color: hsl(var(--clr-dark-grayish-magenta));
+  font-weight: 500;
   font-size: 1.7rem;
   font-family: "League Spartan";
-  font-weight: 500;
 }
 
 main {
@@ -176,6 +176,7 @@ main {
   background-color: hsl(var(--clr-very-dark-magenta));
   padding: 4rem 3.2rem 3.5rem 3.2rem;
   color: hsl(var(--clr-white));
+  font-style: normal;
 }
 
 .testimonial:nth-child(2) {
