@@ -72,6 +72,7 @@ body {
   color: hsl(var(--clr-dark-grayish-magenta));
   font-size: 1.7rem;
   font-family: "League Spartan";
+  font-weight: 500;
 }
 
 main {
@@ -210,6 +211,7 @@ main {
 
 .testimonial__function {
   color: hsl(var(--clr-soft-pink));
+  font-weight: 400;
 }
 
 .testimonial__quote {
