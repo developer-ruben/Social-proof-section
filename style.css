@@ -276,11 +276,11 @@ button {
     max-width: 453px;
   }
 
-  .review:nth-child(2) {
+  .social-proof-section__reviews-item--second {
     margin-top: 0;
   }
 
-  .review:nth-child(3) {
+  .social-proof-section__reviews-item--third {
     margin-top: 0;
   }
 
