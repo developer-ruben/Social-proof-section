@@ -157,11 +157,11 @@ button {
   line-height: var(--text-preset-4-bold-height);
 }
 
-.social-proof-section__stars:nth-child(2) {
+.social-proof-section__stars--second {
   align-self: center;
 }
 
-.social-proof-section__stars:nth-child(3) {
+.social-proof-section__stars--third {
   align-self: flex-end;
 }
 
