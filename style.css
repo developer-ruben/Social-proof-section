@@ -11,15 +11,15 @@
 
   --text-preset-1-size: 3.5rem;
   --text-preset-1-height: 0.85;
-  --text-preset-1-height: -0.125rem;
+  --text-preset-1-ls: -0.125rem;
 
   --text-preset-2-size: 2.5rem;
   --text-preset-2-height: 0.85;
-  --text-preset-2-height: -0.125rem;
+  --text-preset-2-ls: -0.125rem;
 
   --text-preset-3-size: 1.1875rem;
   --text-preset-3-height: 1.35;
-  --text-preset-3-height: -0.0375rem;
+  --text-preset-3-ls: -0.0375rem;
 
   --text-preset-4-bold-size: 1.0625rem;
   --text-preset-4-bold-height: 1;
@@ -84,6 +84,7 @@ main {
 p {
   font-size: var(--text-preset-3-size);
   line-height: var(--text-preset-3-height);
+  letter-spacing: var(--text-preset-3-ls);
 }
 
 button {
@@ -129,6 +130,7 @@ button {
   color: hsl(var(--clr-very-dark-magenta));
   font-size: var(--text-preset-1-size);
   line-height: var(--text-preset-1-height);
+  letter-spacing: var(--text-preset-1-ls);
 }
 
 .social-proof-section__right {
@@ -293,6 +295,12 @@ button {
       url("./images/bg-pattern-top-mobile.svg"),
       url("./images/bg-pattern-bottom-mobile.svg");
     background-size: contain, contain;
+  }
+
+  .social-proof-section__title {
+    font-size: var(--text-preset-2-size);
+    line-height: var(--text-preset-2-height);
+    letter-spacing: var(--text-preset-2-ls);
   }
 
   .social-proof-section__stars {
