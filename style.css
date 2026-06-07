@@ -172,11 +172,11 @@ button {
   list-style-type: none;
 }
 
-.social-proof-section__reviews-item:nth-child(2) {
+.social-proof-section__reviews-item--second {
   margin-top: var(--spacing-200);
 }
 
-.social-proof-section__reviews-item:nth-child(3) {
+.social-proof-section__reviews-item--third {
   margin-top: var(--spacing-400);
 }
 
